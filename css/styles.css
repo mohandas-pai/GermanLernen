@@ -1,0 +1,174 @@
+#title{
+    background-color: #212121;
+    color: aliceblue;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.lobby-image{
+    margin-left: 100px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar-brand{
+    font-family: 'Germania One', cursive;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.nav-link{
+    font-size: larger;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+/* Download Buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+    width: 40%;
+}
+
+.title-text{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Features */
+#features{
+    padding: 7% 15%;
+    position: relative;
+    /* z-index: 1; */
+    background-color: white;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.features-icon{
+    color: #212121;
+    margin-bottom: 1rem;
+}
+
+.features-icon:hover{
+    color: #635f5f;
+}
+
+/* Feedback */
+#feedback{
+    text-align: center;
+    background-color: #212121;
+    color: aliceblue;
+
+}
+
+.feedback-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+#press{
+    background-color: #212121;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/* CTA */
+#cta{
+    background-color: #212121;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-text{
+    color: aliceblue;
+}
+
+.download-button-cta{
+    margin-top: 5%;
+}
+
+
+/* Footer */
+#footer{
+    text-align: center;
+    padding: 7% 15% 3%;
+}
+
+.footer-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .lobby-image{
+        transform: rotate(0deg);
+        position: static;
+    }
+}
