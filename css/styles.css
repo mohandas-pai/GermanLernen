@@ -125,14 +125,22 @@ body{
     padding: 7% 15%;
 }
 
-/* Pricing */
-#pricing{
+/* Screenshot */
+#screenshot{
     padding: 100px;
     text-align: center;
 }
 
-.pricing-col{
+.screenshot-col{
     padding: 3% 2%;
+}
+
+.screenshot-image{
+    width: 50%;
+}
+
+.screenshot-image:hover{
+    width: 70%;
 }
 
 /* CTA */
